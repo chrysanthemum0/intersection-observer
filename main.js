@@ -11,7 +11,6 @@ let observe = new IntersectionObserver((entries) => {
 })
 
 let div = document.querySelectorAll('div')
-
 //특정 html요소 감시해주는 함수 
 observe.observe(div[0])
 observe.observe(div[1])
